@@ -41,8 +41,7 @@ const CurrencyConverter = () => {
         justifyContent: "center",
         alignItems: "center",
         height: "100vh",
-        backgroundImage:
-          "url(C:/Users/leona/OneDrive/Área de Trabalho/images.jpg)",
+        backgroundImage: "url(./assets/images.jpg)",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
