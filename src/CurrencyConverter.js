@@ -10,11 +10,11 @@ const CurrencyConverter = () => {
   const [toCurrency, setToCurrency] = useState("EUR");
   const [convertedAmount, setConvertedAmount] = useState(0);
   const [currencies, setCurrencies] = useState([
-    { symbol: "$", code: "USD" },
-    { symbol: "€", code: "EUR" },
-    { symbol: "R$", code: "BRL" },
-    { symbol: "£", code: "GBP" },
-    { symbol: "¥", code: "JPY" },
+    { symbol: "$ (Dólar US)", code: "USD" },
+    { symbol: "€ (Euro)", code: "EUR" },
+    { symbol: "R$ (Real)", code: "BRL" },
+    { symbol: "£ (Libra Esterlina)", code: "GBP" },
+    { symbol: "¥ (Iene)", code: "JPY" },
   ]);
 
   useEffect(() => {
